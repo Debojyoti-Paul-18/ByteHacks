@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Full-Page Container */
+.product-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Product Container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 45px;
+    padding-top: 0px;
+    
+}
+
+/* Product Heading */
+.product-heading h1 {
+    color: #047857;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Product Image Section */
+.product-image-section {
+    text-align: center;
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+/* Price and Description */
+.product-price {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Seller Details */
+.seller-details {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Delivery Address Section */
+.address-section {
+    margin-top: 20px;
+}
+
+/* Address Field Container */
+.address-field {
+    margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Pincode and Address Input Fields */
+input[type="text"], textarea {
+    width: 60%; /* Reduced width */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+textarea {
+    width: 60%; /* Reduced width for Address */
+    resize: vertical;
+}
+
+input[type="text"]:focus, textarea:focus {
+    outline: none;
+    border-color: #047857;
+}
+
+/* Order Now Button */
+.order-now {
+    background-color: #047857;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.order-now:hover {
+    background-color: #065f46;
+}
+
+.section-title{
+    color: #047857;
+}
+
+.add-address{
+        background-color: #047857;
+        color: white;
+        border: none;
+        padding: 8px 18px;
+        font-size: 12px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+}

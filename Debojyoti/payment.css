@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Payment Page */
+.payment-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Payment Container */
+.payment-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    padding-left: 60px;
+    padding-right: 60px;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Header Section */
+.payment-header {
+    margin-bottom: 30px;
+}
+
+.payment-header h1 {
+    font-size: 28px;
+    color: #047857;
+    margin-bottom: 10px;
+}
+
+.payment-header p {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+/* Payment Form */
+.payment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 14px;
+    color: #495057;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    color: #495057;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #047857;
+    background-color: #ffffff;
+}
+
+/* Multi-field Row */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Added space between fields */
+}
+
+.form-row .form-group {
+    width: 48%; /* Adjusted to give space to both fields */
+}
+
+/* Expiry Date and CVV Styling */
+.form-row .form-group input {
+    width: 90%;
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: #047857;
+    color: white;
+    padding: 14px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #065f46;
+}
+
+/* Footer Section */
+.payment-footer {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #343a40;
+}
+
+.payment-footer span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #047857;
+}
